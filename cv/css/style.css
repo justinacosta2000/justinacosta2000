@@ -1,0 +1,165 @@
+/* Nothing on the head, just wanted to put it there for less confusion */
+head {
+
+}
+/* The start of the body html by using css */
+body {
+background-color: silver;
+}
+
+/* Border Using Horizontal Rule Class */
+hr {
+    border-style: dashed;
+}
+/* End of the Border Class */
+
+.Top101 {
+    font-family: Arial, "Times New Roman";
+    background-color: silver;
+    padding: 50px 200px 50px 200px;
+    color: black;
+    text-align: center;
+    border-radius: 4px;
+}
+
+/* Absoulte Positioning */
+
+img.UGA1 {
+    position: absolute;
+    left: 75px;
+    border-radius: 30px;
+}
+img.Headshot {
+    border-radius: 30px;
+}
+img.UGA2 {
+    position: absolute;
+    right: 75px;
+    border-radius: 30px;
+}
+/* End of Absoulte Positioning */
+
+.Body101 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: large;
+    color: slategrey;
+    background-color: silver;
+}
+
+/* Styling Hovering Links on the Leadership and Experience */
+a:hover {
+
+    background-color: slategray;
+    color: white; 
+
+}
+/* Ending of the Hovering Links */
+
+img.Computer1 {
+    position: absolute;
+    top: 680px;
+    left: 50px;
+}
+
+img.Computer2 {
+    position: absolute;
+    top: 680px;
+    right: 50px;
+}
+
+/* Everything is set up for Multicolumn */ 
+.Languages {
+
+}
+
+img.Leadership1 {
+    position: absolute;
+    left: 50px;
+}
+img.Leadership2 {
+    position: absolute;
+    right: 50px
+}
+
+/* Everything is set up for Multicolumn */ 
+.Experience {
+
+}
+
+/* The start of use of color and removing underline of the anchor text of links */
+    a {
+        color: blue;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+    a:visted {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    a:active {
+        text-decoration: underline;
+    }
+/* End of the use of color and removing underline of the anchor text of links */
+
+.Bottom101 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: large;
+    color: slategray;
+    background-color: silver;
+}
+
+/* Everything is set up for Multicolumn */ 
+.Skills {
+
+}
+
+img.Skills1 {
+    position: absolute;
+    left: 50px;
+}
+img.Skills2 {
+    position: absolute;
+    right: 50px;
+}
+
+/* Styling the link for contact html as a button */
+    .Button {
+    color: blue;
+    text-decoration: none;
+    transition: 0.5;
+    border-radius: 4px;
+    outline: auto;
+    outline-width: 3px;
+
+    }
+    .Button:hover {
+    background-color: slategray;
+    color: white;
+    }
+
+/* Change my copy right to Times New Roman and Black Color*/
+.Last101 {
+    font-size: x-large;
+    font-family: Arial, "Times New Roman";
+    color: black
+}
+
+
+/* Styling Contact Form */
+
+.ContactBody {
+    background-color: silver;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+
+}
+a:{
+    column-count: 2;
+    column-fill: balance;
